@@ -16,6 +16,15 @@ namespace CarLotSimulator
 		public void MakeEngineNoise() { Console.WriteLine(EngineNoise); }
 		public void MakeHonkNoise() { Console.WriteLine(HonkNoise); }
 
+
+		//Custom Constructor for Bonus
+		public Car(string make, string model, int year)
+		{
+			Make = "Toyota";
+			Model = "Corolla";
+			Year = 2007;
+		}
+
 	}
 }
 

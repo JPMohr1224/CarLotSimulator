@@ -38,6 +38,17 @@ namespace CarLotSimulator
 
             // Set the properties utilizing the 3 different ways we learned about, one way for each car
 
+            //Car carVinOne = new Car() { Make = "Toyota", Model = "Corolla", Year = 2007, IsDrivable = true, HonkNoise = "Beeeep", EngineNoise = "Vroom" };
+            //Car carVinTwo = new Car() 
+            /*carVinTwo.Make = "Ford";
+             * carVinTwo.Model = "Bronco";
+             * carVinTwo.Year = 2025;
+             * carVinTwo.IsDrivable = true;
+             * carVinTwo.HonkNoise = "HONK";
+             * carVinTwo.EngineNoise = "vrrrr";
+             */
+
+            //Custon Constructor in Car.cs
 
 
             //*************BONUS X 2*************//
