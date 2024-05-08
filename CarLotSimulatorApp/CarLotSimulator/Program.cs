@@ -2,7 +2,7 @@
 
 namespace CarLotSimulator
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
@@ -46,9 +46,15 @@ namespace CarLotSimulator
             //It should have at least one property: a List of cars
             //Instanciate the a Carlot at the beginning of the program and as you create a car add the car to the list.
             //At the end iterate through the list printing each of car's Year, Make, and Model to the console
+            var Cars4You = new CarLot();
+            Cars4You.UsedCars.Add(carVinOne);
+            Cars4You.UsedCars.Add(carVinTwo);
+            Cars4You.UsedCars.Add(carVinThree);
+
+            Cars4You.CarsForSale();
         }
 
-
+           
        
 
     }
