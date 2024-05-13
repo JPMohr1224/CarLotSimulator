@@ -5,19 +5,30 @@ namespace CarLotSimulator
 {
 	public class CarLot
 	{
-		//public CarLot()
-		//{
-		//}
+
+        public static int _NumberOfCars;
+		
 
         public List<Car> UsedCars { get; set; } = new List<Car>();
 
 		public void CarsForSale()
 		{
-			foreach (var Car in UsedCars)
+
+
+            int i = 0;
+
+            foreach (var Car in UsedCars)
 			{
-				Console.WriteLine(Car.Make);
+				
+
+                Console.WriteLine(Car.Make);
 				Console.WriteLine(Car.Model);
 				Console.WriteLine(Car.Year);
+				i++;
+				_NumberOfCars = i;
+				
+
+                Console.WriteLine($"How many cars on the lot : {_NumberOfCars}");
 			};
 		}
     }
