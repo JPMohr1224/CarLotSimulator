@@ -5,16 +5,23 @@ namespace CarLotSimulator
 	{
 		public Car()
 		{
-		}
-		public string Make { get; set; }
+
+			CarLot._numberOfCars++;
+
+        }
+        public string Make { get; set; }
 		public string Model { get; set; }
 		public int Year;
-		public string EngineNoise { get; set; }
+      
+		
+        public string EngineNoise { get; set; }
 		public string HonkNoise { get; set; }
 		public bool IsDrivable { get; set; }
-
+       
 		public void MakeEngineNoise() { Console.WriteLine(EngineNoise); }
 		public void MakeHonkNoise() { Console.WriteLine(HonkNoise); }
+       
+
 
 
 		//Custom Constructor for Bonus
@@ -27,4 +34,3 @@ namespace CarLotSimulator
 
 	}
 }
-
